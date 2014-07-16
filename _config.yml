@@ -6,8 +6,8 @@
 title: Hexo
 subtitle:
 description:
-author: John Doe
-email:
+author: Tony Wang
+email: esfak47@gmail.com
 language:
 
 # URL
@@ -86,4 +86,7 @@ exclude_generator:
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: github
+  repo: git@github.com:esfak47/esfak47.github.io.git
+  branch: master
+  message: migrate to hexo
