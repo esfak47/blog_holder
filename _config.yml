@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: 光光的小站
 subtitle:
 description:
 author: Tony Wang
@@ -12,7 +12,7 @@ language:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://esfak47.github.io
 root: /
 permalink: :year/:month/:day/:title/
 tag_dir: tags
@@ -80,7 +80,7 @@ disqus_shortname:
 # Extensions
 ## Plugins: https://github.com/hexojs/hexo/wiki/Plugins
 ## Themes: https://github.com/hexojs/hexo/wiki/Themes
-theme: landscape
+theme: hexo-theme-zan
 exclude_generator:
 
 # Deployment
@@ -89,4 +89,4 @@ deploy:
   type: github
   repo: git@github.com:esfak47/esfak47.github.io.git
   branch: master
-  message: migrate to hexo
+  message: using hexo-theme-zan
