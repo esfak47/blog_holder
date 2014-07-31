@@ -4,7 +4,7 @@ categories: nodejs
 ---
 
 # Sample file for grunt
-``` json
+``` javascript
 module.exports = function(grunt) {
 
   grunt.initConfig({
